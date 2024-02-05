@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="playlist-style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://kit.fontawesome.com/8235401c7b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <Header>
+        <nav class="navbar">
+            <div class="logo-favourites-combo">
+                <div class="logo-image">
+                    <img src="image\logo.png" alt="Logo Image">
+                </div>
+                <div class="favourite">
+                    Favourite
+                </div>
+            </div>
+            <div class="navbar-functions-combo">
+                <div class="search-bar">
+                    <div class="search-bar-search-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <input type="text" name="search" placeholder="Search">
+                    <div class="search-bar-mic-icon">
+                        <i class="fa-solid fa-microphone"></i>
+                    </div>
+                </div>
+                <div class="notification">
+                    <i class="fa-solid fa-bell fa-2x bell-icon"></i>
+                </div>
+                <div class="profile-pic">
+                    <img src="image/profile-image.jpg" alt="Profile-image">
+                </div>
+            </div>
+        </nav>
+    </Header>
+    <main>
+        <section id="artist-info">
+            <div class="artist-card">
+                <div class="artist-image">
+                    <!-- <img src="image/playlist/imagine-dragons.jpg" alt=""> -->
+                </div>
+                <div class="artist-details-container">
+                    <div class="artist-name-container">
+                        <p class="artist-name">
+                            Imagine Dragons
+                        </p>
+                        <p class="followers-count">
+                            599 Followers
+                        </p>
+                    </div>
+
+                    <p class="artist-genre">
+                        American Band
+                    </p>
+                    
+                    <p class="artist-description">
+                        Imagine Dragons are an American pop rock band formed in 2008, based in Las Vegas, Nevada, and currently consists of lead singer Dan Reynolds, guitarist Wayne Sermon, bassist Ben McKee and drummer Daniel Platzman. The band first gained exposure with the release of their single "It's Time", followed by their debut album Night Visions (2012), which resulted in the chart-topping singles "Radioactive" and "Demons".
+                    </p>
+
+                    <div class="artist-actions">
+                        <button class="play-all-btn">
+                            Play All
+                        </button>
+                        <button class="follow-btn">
+                            Follow
+                        </button>
+                        <p>
+                            128 Tracks | 100 Albums
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="artist-songs">
+            <div class="queue-elements-container">
+                <div class="queue-element">
+                    <div class="image-song-container">
+                        <p class="queue-number">
+                            01
+                        </p>
+                        <div class="queue-image">
+                            <img src="image/queue/country-roads.jpg" alt="Song Placeholder">
+                        </div>
+                        <div class="queue-song">
+                            <p class="queue-song-name">
+                                Country Roads
+                            </p>
+                            <p class="queue-artist-name">
+                                John Denver
+                            </p>
+                        </div>
+                    </div>
+                    <div class="use-buttons">
+                        <div class="like-button">
+                            <div class="unliked-song">
+                                <i class="far wishlist-icon fa-heart"></i>
+                            </div>
+                            <div class="liked-song">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="add-button">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="queue-element">
+                    <div class="image-song-container">
+                        <p class="queue-number">
+                            02
+                        </p>
+                        <div class="queue-image">
+                            <img src="image/queue/husn.jpg" alt="Song Placeholder">
+                        </div>
+                        <div class="queue-song">
+                            <p class="queue-song-name">
+                                Husn
+                            </p>
+                            <p class="queue-artist-name">
+                                Anuv Jain
+                            </p>
+                        </div>
+                    </div>
+                    <div class="use-buttons">
+                        <div class="like-button">
+                            <div class="unliked-song">
+                                <i class="far wishlist-icon fa-heart"></i>
+                            </div>
+                            <div class="liked-song">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="add-button">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="queue-element">
+                    <div class="image-song-container">
+                        <p class="queue-number">
+                            03
+                        </p>
+                        <div class="queue-image">
+                            <img src="image/queue/one-love.jpg" alt="Song Placeholder">
+                        </div>
+                        <div class="queue-song">
+                            <p class="queue-song-name">
+                                One Love
+                            </p>
+                            <p class="queue-artist-name">
+                                Shubh
+                            </p>
+                        </div>
+                    </div>
+                    <div class="use-buttons">
+                        <div class="like-button">
+                            <div class="unliked-song">
+                                <i class="far wishlist-icon fa-heart"></i>
+                            </div>
+                            <div class="liked-song">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="add-button">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="queue-element">
+                    <div class="image-song-container">
+                        <p class="queue-number">
+                            04
+                        </p>
+                        <div class="queue-image">
+                            <img src="image/queue/tu-hai-kahan.jpg" alt="Song Placeholder">
+                        </div>
+                        <div class="queue-song">
+                            <p class="queue-song-name">
+                                Tu Hai Kahan
+                            </p>
+                            <p class="queue-artist-name">
+                                AUR
+                            </p>
+                        </div>
+                    </div>
+                    <div class="use-buttons">
+                        <div class="like-button">
+                            <div class="unliked-song">
+                                <i class="far wishlist-icon fa-heart"></i>
+                            </div>
+                            <div class="liked-song">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="add-button">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="queue-element">
+                    <div class="image-song-container">
+                        <p class="queue-number">
+                            05
+                        </p>
+                        <div class="queue-image">
+                            <img src="image/queue/lose-control.jpg" alt="Song Placeholder">
+                        </div>
+                        <div class="queue-song">
+                            <p class="queue-song-name">
+                                Lose Control
+                            </p>
+                            <p class="queue-artist-name">
+                                Teddy Swims
+                            </p>
+                        </div>
+                    </div>
+                    <div class="use-buttons">
+                        <div class="like-button">
+                            <div class="unliked-song">
+                                <i class="far wishlist-icon fa-heart"></i>
+                            </div>
+                            <div class="liked-song">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="add-button">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="queue-element">
+                    <div class="image-song-container">
+                        <p class="queue-number">
+                            06
+                        </p>
+                        <div class="queue-image">
+                            <img src="image/queue/cruel-summer.jpg" alt="Song Placeholder">
+                        </div>
+                        <div class="queue-song">
+                            <p class="queue-song-name">
+                                Cruel Summer
+                            </p>
+                            <p class="queue-artist-name">
+                                Taylor Swift
+                            </p>
+                        </div>
+                    </div>
+                    <div class="use-buttons">
+                        <div class="like-button">
+                            <div class="unliked-song">
+                                <i class="far wishlist-icon fa-heart"></i>
+                            </div>
+                            <div class="liked-song">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="add-button">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="queue-element">
+                    <div class="image-song-container">
+                        <p class="queue-number">
+                            07
+                        </p>
+                        <div class="queue-image">
+                            <img src="image/queue/king-shit.jpg" alt="Song Placeholder">
+                        </div>
+                        <div class="queue-song">
+                            <p class="queue-song-name">
+                                King Shit
+                            </p>
+                            <p class="queue-artist-name">
+                                Shubh
+                            </p>
+                        </div>
+                    </div>
+                    <div class="use-buttons">
+                        <div class="like-button">
+                            <div class="unliked-song">
+                                <i class="far wishlist-icon fa-heart"></i>
+                            </div>
+                            <div class="liked-song">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="add-button">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="queue-element">
+                    <div class="image-song-container">
+                        <p class="queue-number">
+                            08
+                        </p>
+                        <div class="queue-image">
+                            <img src="image/queue/hass-hass.jpg" alt="Song Placeholder">
+                        </div>
+                        <div class="queue-song">
+                            <p class="queue-song-name">
+                                Hass Hass
+                            </p>
+                            <p class="queue-artist-name">
+                                Diljit, Sia
+                            </p>
+                        </div>
+                    </div>
+                    <div class="use-buttons">
+                        <div class="like-button">
+                            <div class="unliked-song">
+                                <i class="far wishlist-icon fa-heart"></i>
+                            </div>
+                            <div class="liked-song">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="add-button">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="queue-element">
+                    <div class="image-song-container">
+                        <p class="queue-number">
+                            09
+                        </p>
+                        <div class="queue-image">
+                            <img src="image/queue/la-diabla.jpg" alt="Song Placeholder">
+                        </div>
+                        <div class="queue-song">
+                            <p class="queue-song-name">
+                                La Diabla
+                            </p>
+                            <p class="queue-artist-name">
+                                Xavi
+                            </p>
+                        </div>
+                    </div>
+                    <div class="use-buttons">
+                        <div class="like-button">
+                            <div class="unliked-song">
+                                <i class="far wishlist-icon fa-heart"></i>
+                            </div>
+                            <div class="liked-song">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="add-button">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="queue-element">
+                    <div class="image-song-container">
+                        <p class="queue-number">
+                            10
+                        </p>
+                        <div class="queue-image">
+                            <img src="image/queue/alag-aasman.jpg" alt="Song Placeholder">
+                        </div>
+                        <div class="queue-song">
+                            <p class="queue-song-name">
+                                Alag Aasman
+                            </p>
+                            <p class="queue-artist-name">
+                                Anuv Jain
+                            </p>
+                        </div>
+                    </div>
+                    <div class="use-buttons">
+                        <div class="like-button">
+                            <div class="unliked-song">
+                                <i class="far wishlist-icon fa-heart"></i>
+                            </div>
+                            <div class="liked-song">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="add-button">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="queue-element">
+                    <div class="image-song-container">
+                        <p class="queue-number">
+                            11
+                        </p>
+                        <div class="queue-image">
+                            <img src="image/queue/paint-town-red.jpg" alt="Song Placeholder">
+                        </div>
+                        <div class="queue-song">
+                            <p class="queue-song-name">
+                                Paint The Town Red
+                            </p>
+                            <p class="queue-artist-name">
+                                Doja Cat
+                            </p>
+                        </div>
+                    </div>
+                    <div class="use-buttons">
+                        <div class="like-button">
+                            <div class="unliked-song">
+                                <i class="far wishlist-icon fa-heart"></i>
+                            </div>
+                            <div class="liked-song">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="add-button">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="queue-element">
+                <div class="image-song-container">
+                    <p class="queue-number">
+                        12
+                    </p>
+                    <div class="queue-image">
+                        <img src="image/queue/whatever.jpg" alt="Song Placeholder">
+                    </div>
+                    <div class="queue-song">
+                        <p class="queue-song-name">
+                            Whatever
+                        </p>
+                        <p class="queue-artist-name">
+                            Kygo, Ava Max
+                        </p>
+                    </div>
+                </div>
+                <div class="use-buttons">
+                    <div class="like-button">
+                        <div class="unliked-song">
+                            <i class="far wishlist-icon fa-heart"></i>
+                        </div>
+                        <div class="liked-song">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="add-button">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        </section>
+    </main>
+    <aside>
+        <section id="similar-artists">
+            <div class="similar-artists-queue">
+                <div class="queue-header">
+                    <p>
+                        Similar Artists
+                    </p>
+                    <div class="queue-dropdown">
+                        <div class="queue-dropdown-head">
+                            View All
+                            <i class="fas fa-angle-down" ></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="similar-artists-container">
+                    <div class="image-name-container">
+                        <img src="image/queue/coldplay.jpg" alt="Image Placeholder">
+                        <div class="similar-artist-info">
+                            <p class="similar-artist-name">
+                                ColdPlay
+                            </p>
+                            <p class="similar-artist-genre">
+                                Pop Band
+                            </p>
+                        </div>
+                    </div>
+                    <div class="similar-artists-actions">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <p class="play-duration">
+                            4:44
+                        </p>
+                    </div>
+                </div>
+                <div class="similar-artists-container">
+                    <div class="image-name-container">
+                        <img src="image/queue/the-lumineers.jpg" alt="Image Placeholder">
+                        <div class="similar-artist-info">
+                            <p class="similar-artist-name">
+                                The Lumineers
+                            </p>
+                            <p class="similar-artist-genre">
+                                Pop Band
+                            </p>
+                        </div>
+                    </div>
+                    <div class="similar-artists-actions">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <p class="play-duration">
+                            4:44
+                        </p>
+                    </div>
+                </div>
+                <div class="similar-artists-container">
+                    <div class="image-name-container">
+                        <img src="image/queue/on-top-of-world.jpg" alt="Image Placeholder">
+                        <div class="similar-artist-info">
+                            <p class="similar-artist-name">
+                               Imagine Dragons
+                            </p>
+                            <p class="similar-artist-genre">
+                                Pop Band
+                            </p>
+                        </div>
+                    </div>
+                    <div class="similar-artists-actions">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <p class="play-duration">
+                            4:44
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="recently-played">
+            <div class="queue">
+                <div class="queue-header">
+                    <p>
+                        Recently Played
+                    </p>
+                    <div class="queue-dropdown">
+                        <div class="queue-dropdown-head">
+                            Queue
+                            <i class="fas fa-angle-down" ></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="queue-elements-container">
+                    <div class="queue-element">
+                        <div class="image-song-container">
+                            <p class="queue-number">
+                                01
+                            </p>
+                            <div class="queue-image">
+                                <img src="image/queue/country-roads.jpg" alt="Song Placeholder">
+                            </div>
+                            <div class="queue-song">
+                                <p class="queue-song-name">
+                                    Country Roads
+                                </p>
+                                <p class="queue-artist-name">
+                                    John Denver
+                                </p>
+                            </div>
+                        </div>
+                        <div class="like-button">
+                            <div class="unliked-song">
+                                <i class="far wishlist-icon fa-heart"></i>
+                            </div>
+                            <div class="liked-song">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="queue-element">
+                        <div class="image-song-container">
+                            <p class="queue-number">
+                                02
+                            </p>
+                            <div class="queue-image">
+                                <img src="image/queue/husn.jpg" alt="Song Placeholder">
+                            </div>
+                            <div class="queue-song">
+                                <p class="queue-song-name">
+                                    Husn
+                                </p>
+                                <p class="queue-artist-name">
+                                    Anuv Jain
+                                </p>
+                            </div>
+                        </div>
+                        <div class="like-button">
+                            <div class="unliked-song">
+                                <i class="far wishlist-icon fa-heart"></i>
+                            </div>
+                            <div class="liked-song">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="queue-element">
+                        <div class="image-song-container">
+                            <p class="queue-number">
+                                03
+                            </p>
+                            <div class="queue-image">
+                                <img src="image/queue/one-love.jpg" alt="Song Placeholder">
+                            </div>
+                            <div class="queue-song">
+                                <p class="queue-song-name">
+                                    One Love
+                                </p>
+                                <p class="queue-artist-name">
+                                    Shubh
+                                </p>
+                            </div>
+                        </div>
+                        <div class="like-button">
+                            <div class="unliked-song">
+                                <i class="far wishlist-icon fa-heart"></i>
+                            </div>
+                            <div class="liked-song">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="queue-element">
+                        <div class="image-song-container">
+                            <p class="queue-number">
+                                04
+                            </p>
+                            <div class="queue-image">
+                                <img src="image/queue/tu-hai-kahan.jpg" alt="Song Placeholder">
+                            </div>
+                            <div class="queue-song">
+                                <p class="queue-song-name">
+                                    Tu Hai Kahan
+                                </p>
+                                <p class="queue-artist-name">
+                                    AUR
+                                </p>
+                            </div>
+                        </div>
+                        <div class="like-button">
+                            <div class="unliked-song">
+                                <i class="far wishlist-icon fa-heart"></i>
+                            </div>
+                            <div class="liked-song">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="queue-element">
+                        <div class="image-song-container">
+                            <p class="queue-number">
+                                05
+                            </p>
+                            <div class="queue-image">
+                                <img src="image/queue/lose-control.jpg" alt="Song Placeholder">
+                            </div>
+                            <div class="queue-song">
+                                <p class="queue-song-name">
+                                    Lose Control
+                                </p>
+                                <p class="queue-artist-name">
+                                    Teddy Swims
+                                </p>
+                            </div>
+                        </div>
+                        <div class="like-button">
+                            <div class="unliked-song">
+                                <i class="far wishlist-icon fa-heart"></i>
+                            </div>
+                            <div class="liked-song">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </aside>
+</body>
+</html>
